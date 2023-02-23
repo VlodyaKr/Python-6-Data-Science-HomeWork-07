@@ -19,7 +19,6 @@ from sklearn.datasets import load_wine
 wine_dataset = load_wine()
 ```
 
-
 2. Вивчіть документацію функції [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html?highlight=train_test_split#sklearn.model_selection.train_test_split). З її допомогою датасет можна розділити на тренувальну та тестову вибірки. Перша потрібна для навчання моделі, а друга - для оцінки якості моделі.
 
 3. Розділіть `wine_dataset` на навчальну та тестову вибірки.
